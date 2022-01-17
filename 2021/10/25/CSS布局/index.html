@@ -1,0 +1,147 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.6.2" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.6.2" type="image/png" sizes="32x32"><meta name="description" content="CSS布局">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CSS布局">
+<meta property="og:url" content="http://example.com/2021/10/25/CSS%E5%B8%83%E5%B1%80/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="CSS布局">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/e03907e4cd29487396f4a851864b4f70.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA6Z2ZWXU=,size_20,color_FFFFFF,t_70,g_se,x_16">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/19de167ca3a54f7ab2f382cf54378091.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA6Z2ZWXU=,size_15,color_FFFFFF,t_70,g_se,x_16">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/11978f7e6e484c36a867360edb77c4b6.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2c8063ce226e4a06a1b0bcf8d6aaaf20.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA6Z2ZWXU=,size_20,color_FFFFFF,t_70,g_se,x_16">
+<meta property="article:published_time" content="2021-10-25T03:10:07.000Z">
+<meta property="article:modified_time" content="2021-11-16T04:49:50.627Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="随笔">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/e03907e4cd29487396f4a851864b4f70.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA6Z2ZWXU=,size_20,color_FFFFFF,t_70,g_se,x_16"><title>CSS布局 | Hexo</title><link ref="canonical" href="http://example.com/2021/10/25/CSS%E5%B8%83%E5%B1%80/"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css" type="text/css"><link rel="stylesheet" href="/css/index.css?v=2.6.2"><script>var Stun = window.Stun || {};
+var CONFIG = {
+  root: '/',
+  algolia: undefined,
+  assistSearch: undefined,
+  fontIcon: {"prompt":{"success":"fas fa-check-circle","info":"fas fa-arrow-circle-right","warning":"fas fa-exclamation-circle","error":"fas fa-times-circle"},"copyBtn":"fas fa-copy"},
+  sidebar: {"offsetTop":"20px","tocMaxDepth":6},
+  header: {"enable":true,"showOnPost":true,"scrollDownIcon":false},
+  postWidget: {"endText":true},
+  nightMode: {"enable":true},
+  back2top: {"enable":true},
+  codeblock: {"style":"default","highlight":"light","wordWrap":false},
+  reward: false,
+  fancybox: false,
+  zoomImage: {"gapAside":"20px"},
+  galleryWaterfall: undefined,
+  lazyload: false,
+  pjax: undefined,
+  externalLink: {"icon":{"enable":true,"name":"fas fa-external-link-alt"}},
+  shortcuts: undefined,
+  prompt: {"copyButton":"Copy","copySuccess":"Copy Success","copyError":"Copy Error"},
+  sourcePath: {"js":"js","css":"css","images":"images"},
+};
+
+window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 6.0.0"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav header-nav--fixed"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">Home</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">Archives</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/categories/"><span class="header-nav-menu-item__icon"><i class="fas fa-layer-group"></i></span><span class="header-nav-menu-item__text">Categories</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/tags/"><span class="header-nav-menu-item__icon"><i class="fas fa-tags"></i></span><span class="header-nav-menu-item__text">Tags</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav><div class="header-banner"><div class="header-banner-info"><div class="header-banner-info__title">Hexo</div><div class="header-banner-info__subtitle"></div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content" id="content"><!-- Just used to judge whether it is an article page--><div id="is-post"></div><div class="post"><header class="post-header"><h1 class="post-title">CSS布局</h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">Created</span><span class="post-meta-item__value">2021-10-25</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">Updated</span><span class="post-meta-item__value">2021-11-16</span></span></div></header><div class="post-body">
+        <h1 id="CSS布局"   >
+          <a href="#CSS布局" class="heading-link"><i class="fas fa-link"></i></a><a href="#CSS布局" class="headerlink" title="CSS布局"></a>CSS布局</h1>
+      <span id="more"></span>
+
+
+        <h1 id="引言"   >
+          <a href="#引言" class="heading-link"><i class="fas fa-link"></i></a><a href="#引言" class="headerlink" title="引言"></a>引言</h1>
+      <p>信息时代，互联网是一个重要的信息传播载体。网页成为人们查找资源，获取信息，发布信息，学习交流的重要平台。现今世界，也是一个各项技术都飞速发展的时代。网页的设计制作依傍于互联网而生，并且风格设计在不断更新。因此，对网页的设计要求也不断提高，尤其是在创新的社会背景下网页设计的新理念和新方法，不断推陈出新。CSS对网页的布局是网页体系中的重中之重，本文基于此背景，阐述CSS+DIV技术在网页布局方面的应用。</p>
+
+        <h2 id="1-CSS盒子模型"   >
+          <a href="#1-CSS盒子模型" class="heading-link"><i class="fas fa-link"></i></a><a href="#1-CSS盒子模型" class="headerlink" title="1 CSS盒子模型"></a>1 CSS盒子模型</h2>
+      <p>CSS盒子模型是网页布局的核心，所有的HTML元素都可以看作是盒子，CSS盒子模型本质上是一个盒子封装周围的HTML元素。盒子模型主要有四种属性：边距（margin）、边界（border）、边框距（padding）和内容（content）。<br><img   src="https://img-blog.csdnimg.cn/e03907e4cd29487396f4a851864b4f70.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA6Z2ZWXU=,size_20,color_FFFFFF,t_70,g_se,x_16" style="width: image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,tepx;height: t_Q1NETiBA6Z2ZWXUpx;"  alt="在这里插入图片描述"></p>
+
+        <h3 id="1-1水平垂直居中"   >
+          <a href="#1-1水平垂直居中" class="heading-link"><i class="fas fa-link"></i></a><a href="#1-1水平垂直居中" class="headerlink" title="1.1水平垂直居中"></a>1.1水平垂直居中</h3>
+      <p>水平垂直居中顾名思义就是将行内元素在水平和垂直两个方向居中对齐。利用flex来居中布局是非常好的一种方式，几行代码就能优雅的实现元素水平垂直完美居中。使用flex来居中首先我们要了解什么是flex布局，flex布局通常被称为<code>flexible box</code>（弹性布局），是一种一维的布局模型。它给flex的子元素提供强大的空间分布和对齐能力。而采用flex布局的元素叫做容器，在flex布局中的子元素被称为项目（即父级元素采用flex布局，则父级元素为容器，全部子元素自动成为项目）；在容器中默认有水平的主轴和垂直的交叉轴，项目在容器中默认沿主轴排列。Flex常用属性有六个：<code>flex-direction、flex-wrap、flex-flow、justify-content、align-items、align-content。</code><br>如果想实现水平垂直居中的效果，CSS代码设置如下：</p>
+<pre><code>.box &#123;
+background-color: #FF8C00;
+width: 300px;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+&#125;
+.content &#123;
+background-color: #F0000;
+width: 100px;
+height: 100px;
+&#125;
+</code></pre>
+<p>CSS代码设置父元素背景颜色为橙色，宽度和高度为300px；设置子元素背景颜色为红色，<br><code>align-items</code>属性定义了项目在交叉轴上是如何对其的，既使子元素垂直居中；<code>justify-content</code>属性使子元素水平居中。需要注意的是一定要给父元素添加<code>display：flex；</code>这是开启flex布局的钥匙。</p>
+<p><img   src="https://img-blog.csdnimg.cn/19de167ca3a54f7ab2f382cf54378091.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA6Z2ZWXU=,size_15,color_FFFFFF,t_70,g_se,x_16" style="width: image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,tepx;height: t_Q1NETiBA6Z2ZWXUpx;"  alt="在这里插入图片描述"></p>
+
+        <h3 id="1-2等分布局"   >
+          <a href="#1-2等分布局" class="heading-link"><i class="fas fa-link"></i></a><a href="#1-2等分布局" class="headerlink" title="1.2等分布局"></a>1.2等分布局</h3>
+      <p>等分布局就是将一行分为多列，每一列的宽度是相同的。使用float + padding + background-clip布局的方式。padding 简写属性在一个声明中设置所有填充属性，该属性可以有1到4个值；background-clip属性指定背景绘制区域。即用padding来实现子元素之间的间距，使用background-clip使子元素padding部分不显示背景。<br>如果想实现等分布局的效果，CSS代码设置如下：</p>
+<pre><code>   .parentWrap &#123;
+            border: 2px solid black;
+            overflow: hidden;
+    &#125;
+.parent &#123;
+            background-color: lightgrey;
+            margin-right: -10px;
+            overflow: hidden;
+        &#125;
+.child &#123;
+        float: left;
+        height: 300px;
+        width: 25%;
+        padding-right: 10px;                
+        box-sizing: border-box;
+        background-clip: content-box;
+&#125;
+</code></pre>
+<p>子元素中float为设置浮动类型，left为向左浮动；height设置高度；本行分为四列，所以宽度为25%，padding-right是设置一个元素的右填充在此填充了10px，即每个子元素之间的空隙。</p>
+<p><img src="https://img-blog.csdnimg.cn/11978f7e6e484c36a867360edb77c4b6.png" alt="在这里插入图片描述"></p>
+
+        <h3 id="1-3圣杯布局"   >
+          <a href="#1-3圣杯布局" class="heading-link"><i class="fas fa-link"></i></a><a href="#1-3圣杯布局" class="headerlink" title="1.3圣杯布局"></a>1.3圣杯布局</h3>
+      <p>圣杯布局是header和footer各占领屏幕所有宽度，高度固定；中间的container是一个三栏布局；三栏布局两侧宽度是固定不变的中间部分自动填充整个区域；中间的部分是三栏中高度最高的部分。实现圣杯布局效果也可以采用flex布局，就是一个大盒子包含三个子盒子，左右两个盒子固定宽高，中间盒子设置flex：1（占据大盒子剩余空间）。<br>如果想实现圣杯布局的效果，CSS代码设置如下：</p>
+<pre><code>  body &#123;
+min-width: 550px;  
+font-weight: bold;
+font-size: 20px;
+  &#125;
+  #header, #footer &#123;
+background: rgba(29, 27, 27, 0.726);
+text-align: center;
+height: 60px;
+line-height: 60px;
+  &#125;
+  #container &#123;
+   display: flex;
+  &#125;
+  #container .column &#123;
+text-align: center;
+height: 300px;
+line-height: 300px;
+  &#125;
+  #center &#123;
+flex: 1;
+background: rgb(206, 201, 201);
+  &#125;
+  #left &#123;
+width: 200px;
+background: rgba(95, 179, 235, 0.972);
+  &#125;
+  #right &#123;
+width: 200px;   
+background: rgb(231, 105, 2);
+  &#125;
+</code></pre>
+<p>Header和footer部分高度设置为60px，文本元素设置为排列居中高度为60px；中间部分center设置属性为flex:1该部分空间大小可以改变，left和right部分宽度设置为200px。</p>
+<p><img   src="https://img-blog.csdnimg.cn/2c8063ce226e4a06a1b0bcf8d6aaaf20.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA6Z2ZWXU=,size_20,color_FFFFFF,t_70,g_se,x_16" style="width: image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,tepx;height: t_Q1NETiBA6Z2ZWXUpx;"  alt="在这里插入图片描述"> </p>
+
+        <h1 id="2-结语"   >
+          <a href="#2-结语" class="heading-link"><i class="fas fa-link"></i></a><a href="#2-结语" class="headerlink" title="2 结语"></a>2 结语</h1>
+      <p>DIV+CSS布局是网页开发的重要部分，它将整个网页分割成多个块使整体变得整齐有序，“DIV+CSS”盒子模型代码实现也相对简单，逻辑清楚，非常适合平时使用。本文只是简单列举了单列布局、双列布局和三列布局布局设计。如果想要搭建一个好看完整的网页还需要很多的技术支持，这就需要不断地学习探索。</p>
+</div><footer class="post-footer"><div class="post-ending ending"><div class="ending__text">------ END ------</div></div><div class="post-copyright copyright"><div class="copyright-author"><span class="copyright-author__name">Author: </span><span class="copyright-author__value"><a href="http://example.com">John Doe</a></span></div><div class="copyright-link"><span class="copyright-link__name">Link: </span><span class="copyright-link__value"><a href="http://example.com/2021/10/25/CSS%E5%B8%83%E5%B1%80/">http://example.com/2021/10/25/CSS%E5%B8%83%E5%B1%80/</a></span></div><div class="copyright-notice"><span class="copyright-notice__name">Copyright: </span><span class="copyright-notice__value">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="external nofollow" target="_blank">BY-NC-SA</a> unless stating additionally</span></div></div><div class="post-tags"><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="http://example.com/tags/%E9%9A%8F%E7%AC%94/">随笔</a></span></div><nav class="post-paginator paginator"><div class="paginator-prev"><a class="paginator-prev__link" href="/2021/11/05/hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%89%8D%E6%9C%9F%E9%83%A8%E7%BD%B2%E5%B7%A5%E4%BD%9C/"><span class="paginator-prev__icon"><i class="fas fa-angle-left"></i></span><span class="paginator-prev__text">hexo+GitHub搭建个人博客前期部署工作</span></a></div><div class="paginator-next"><a class="paginator-next__link" href="/2021/10/25/CSS%E7%94%9F%E6%88%90%E5%B7%A5%E5%85%B7/"><span class="paginator-prev__text">10个实现酷炫前端效果的CSS生成工具</span><span class="paginator-next__icon"><i class="fas fa-angle-right"></i></span></a></div></nav></footer></div></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><div class="sidebar-nav"><span class="sidebar-nav-toc current">Catalog</span><span class="sidebar-nav-ov">Overview</span></div><section class="sidebar-toc"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#CSS%E5%B8%83%E5%B1%80"><span class="toc-number">1.</span> <span class="toc-text">
+          CSS布局</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BC%95%E8%A8%80"><span class="toc-number">2.</span> <span class="toc-text">
+          引言</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-CSS%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B"><span class="toc-number">2.1.</span> <span class="toc-text">
+          1 CSS盒子模型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD"><span class="toc-number">2.1.1.</span> <span class="toc-text">
+          1.1水平垂直居中</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2%E7%AD%89%E5%88%86%E5%B8%83%E5%B1%80"><span class="toc-number">2.1.2.</span> <span class="toc-text">
+          1.2等分布局</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3%E5%9C%A3%E6%9D%AF%E5%B8%83%E5%B1%80"><span class="toc-number">2.1.3.</span> <span class="toc-text">
+          1.3圣杯布局</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-%E7%BB%93%E8%AF%AD"><span class="toc-number">3.</span> <span class="toc-text">
+          2 结语</span></a></li></ol></section><!-- ov = overview--><section class="sidebar-ov hide"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="https://pic1.zhimg.com/80/v2-f4a203ef088d7378c627e3446852d998_720w.jpg?source=1940ef5c" alt="avatar"></div><p class="sidebar-ov-author__text">静Yu的博客</p></div><div class="sidebar-ov-social"><a class="sidebar-ov-social-item" href="https://github.com/JingYu1205/JingYu1205.github.io.git" target="_blank" rel="noopener" data-popover="Github" data-popover-pos="up"><span class="sidebar-ov-social-item__icon"><i class="fab fa-github"></i></span></a><a class="sidebar-ov-social-item" href="https://www.zhihu.com/people/ming-nian-13-95" target="_blank" rel="noopener" data-popover="Zhihu" data-popover-pos="up"><span class="sidebar-ov-social-item__icon">知</span></a><a class="sidebar-ov-social-item" href="https://jingyu1205.blog.csdn.net/" target="_blank" rel="noopener" data-popover="CSDN" data-popover-pos="up"><span class="sidebar-ov-social-item__icon">C</span></a><a class="sidebar-ov-social-item" href="wechat://message?uin=Kcyu68" target="_blank" rel="noopener" data-popover="Wechat" data-popover-pos="up"><span class="sidebar-ov-social-item__icon"><i class="fab fa-weixin"></i></span></a></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">6</div><div class="sidebar-ov-state-item__name">Archives</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--categories" href="/categories/"><div class="sidebar-ov-state-item__count">4</div><div class="sidebar-ov-state-item__name">Categories</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--tags" href="/tags/"><div class="sidebar-ov-state-item__count">1</div><div class="sidebar-ov-state-item__name">Tags</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="Creative Commons" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section><div class="sidebar-reading"><div class="sidebar-reading-info"><span class="sidebar-reading-info__text">You have read </span><span class="sidebar-reading-info__num">0</span><span class="sidebar-reading-info__perc">%</span></div><div class="sidebar-reading-line"></div></div></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2022</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>John Doe</span></div><div><span>Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a></span><span> v6.0.0</span><span class="footer__devider">|</span><span>Theme - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.6.2</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="/js/utils.js?v=2.6.2"></script><script src="/js/stun-boot.js?v=2.6.2"></script><script src="/js/scroll.js?v=2.6.2"></script><script src="/js/header.js?v=2.6.2"></script><script src="/js/sidebar.js?v=2.6.2"></script></body></html>
