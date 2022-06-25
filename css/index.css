@@ -948,8 +948,6 @@ body::after {
   text-align: center;
   color: #f5f6f7;
   background-color: #2d2e30;
-  z-index: 0;
-  background: url("https://pic2.zhimg.com/80/v2-e355d4563a09056e4d961fcbe8e20ec1_720w.jpg") no-repeat center/cover;
 }
 .footer a {
   color: #c20808;
