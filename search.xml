@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>基于hexo搭建博客创建仓库</title>
+      <link href="/2022/10/29/index2/"/>
+      <url>/2022/10/29/index2/</url>
+      
+        <content type="html"><![CDATA[<p>个人博客搭建是基于hexo+github，我们建立在本地的博客要是想要让别人看到你就需要上传到远程服务器，而GitHub就相当于我们的服务器，我们是将本地的博客上传到GitHub，别人通过你的GitHub地址访问到你搭建的博客。<br>超链接在这里👉👉👉<a href="http://jingyu1205.github.io/">静Yu的博客</a><br>下面我们就先创建一个仓库。</p><h1 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h1><p>1️.首先，我们需要有自己的GitHub账号，这里就不详细介绍如何创建账号了，大家可以自己从网上找一些资料学习一下，其实很简单的。如果有什么问题可以单独私信我。<br>2️.首先打开GitHub是这样的。点击右上角的+号，new repository。<br><img src="https://img-blog.csdnimg.cn/8a76338bf65549358feedd63730ed6bf.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA6Z2ZWXU=,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p><p>3️.这里有需要注意的地方，是我图中标红框的地方，仓库的名字，这里仓库的名字不能随便写，格式为<code>你的GitHub注册名字+github.io</code>，<br>例如我的就是<code>JingYu1205.github.io</code><br><img src="https://img-blog.csdnimg.cn/9fff228f4f464c8e9b93965e2a041ac5.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA6Z2ZWXU=,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"><br>4️.接下来选中<code>Add a README file</code> ,创建阅读文件，然后直接点最下面的创建仓库就行了<br><img src="https://img-blog.csdnimg.cn/bb018d7953d440458aac9ceacf604ab0.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA6Z2ZWXU=,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p><p>5️.到此我们的仓库就创建完成了，如图。<br><img src="https://img-blog.csdnimg.cn/70693fa8411c4078abeac1502f1e6d54.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA6Z2ZWXU=,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 个人博客 hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>基于hexo搭建博客前期部署工作</title>
       <link href="/2022/10/24/music/"/>
       <url>/2022/10/24/music/</url>
@@ -20,7 +45,7 @@
       
         <tags>
             
-            <tag> 个人博客 </tag>
+            <tag> 个人博客 hexo </tag>
             
         </tags>
       
