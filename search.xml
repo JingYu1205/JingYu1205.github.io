@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>index11</title>
+      <link href="/2022/12/09/index11/"/>
+      <url>/2022/12/09/index11/</url>
+      
+        <content type="html"><![CDATA[<p>最近网络上流行了一个叫ChatGPT的东西，他到底是什么东西？</p><p>ChatGPT是人工智能实验室OpenAI发布的一款对话式聊天机器人。他可以解答很多刁钻有难度的问题，一经发布就火遍科技圈。12月4日，马斯克在咨询该聊天机器人关于推特经营的建议并收到精准回复后直言其“好得吓人，我们距离强大到危险的人工智能更近了”。<br><img src="https://files.mdnice.com/user/24067/495132f4-9bb2-4dd8-97a6-54e27fc234be.png"><br>你没看错，图中的就是聊天机器人ChatGPT，千万不要小看这个简单的对话框，它的强大只有自己体验了之后才知道。<br>下面教你怎么玩这个ChatGPT。</p><h1 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h1><p>1.代理：要求是美国、印度、日本这些地址<br><br>2.准备一个国外的手机号，没有可以使用接码平台<br><br>3.注册ChatGPT账号</p><p><strong>1.代理</strong></p><p>我们需要科学上网工具，选择全局代理，选择美国节点就可以。不要选择香港，香港应该是不可以的。<br><img src="https://files.mdnice.com/user/24067/75dd595d-fee9-4aaa-92c0-86f1b7c41295.png"><br><strong>2.准备国外手机号</strong></p><p>一般情况下，我们是没有外国手机号的。所以我们选择接码平台就可以。<br><br>接码平台：<a href="https://sms-activate.org/cn">接码平台</a><br><br>第一步先注册一个账号，进去需要充值0.5美金就足够了，选择支付宝充值就可以。</p><p><img src="https://files.mdnice.com/user/24067/a268aa5d-f28e-4e41-b3ff-ca1402752e09.png"><br>完成这些之后，先保留我们先继续下一步。<br><br><strong>3.注册ChatGPT</strong></p><p>OpenAI的注册地址：<a href="https://chat.openai.com/auth/login">OpenAI地址</a><br><br><img src="https://files.mdnice.com/user/24067/3e97dd81-72b2-4423-8a7f-20b79a845bf6.png"><br>我们直接用邮箱注册就可以，会自动往你的邮箱中发一份确认邮件，点击就会跳转到下一个页面。<br><img src="https://files.mdnice.com/user/24067/49fd5b7c-50fd-4d21-b509-320af126188d.png"><br>输入自己的名字，点击<code>Continue</code>就可以了。<br><img src="https://files.mdnice.com/user/24067/4ee3999f-34a3-4349-8046-0ad5c88b776b.png"><br>下一步就要用到我们刚才注册的接码平台了。我们回到我们的接码平台。<br>在左侧的服务搜索中搜<code>OpenAI</code>点击进去，选择一个国家。<br><img src="https://files.mdnice.com/user/24067/28e590d2-149a-4441-8e5c-fb7131ff6b8a.png"><br>我选择的是巴西，点击后面的购物车直接购买就可以了。<br><img src="https://files.mdnice.com/user/24067/deeeaef5-d2a8-4446-9121-1aa50ecff100.png"><br>我的号码已经用过了就会自动消失，图中马赛克的位置就是你的手机号。<br><img src="https://files.mdnice.com/user/24067/149d392c-3a55-4e9f-88fe-246a3c34f1f0.png"><br>将手机号复制到刚才<code>OpenAI</code>那里，发送验证码就可以了。</p><h1 id="欢迎来到ChatGPT"><a href="#欢迎来到ChatGPT" class="headerlink" title="欢迎来到ChatGPT"></a>欢迎来到ChatGPT</h1><p>完成上面一系列的步骤之后直接用刚才的邮箱登录就可以了。<a href="https://chat.openai.com/auth/login">登录地址</a></p><p>这就是大名鼎鼎的ChatGPT！！！<br><img src="https://files.mdnice.com/user/24067/3d224a7b-ddba-4e8d-b254-d068c35d367a.png"></p><h3 id="基础的对话"><a href="#基础的对话" class="headerlink" title="基础的对话"></a>基础的对话</h3><blockquote><p>你知道微信吗？</p></blockquote><p><img src="https://files.mdnice.com/user/24067/00cac45a-958a-49d6-b2fa-e232a9c477a6.png"></p><blockquote><p>你知道马云吗？</p></blockquote><p><img src="https://files.mdnice.com/user/24067/b00ac0ce-78d2-41d3-b593-c918454ade77.png"></p><h3 id="写代码"><a href="#写代码" class="headerlink" title="写代码"></a>写代码</h3><blockquote><p>用C语言帮我写一个冒泡排序</p><p>好的，我可以给你写一个 C 语言实现的冒泡排序算法。冒泡排序是一种比较简单的排序算法，它的基本思想是通过对待排序序列从前向后（从下标较小的元素开始）,依次比较相邻元素的值，若发现逆序则交换，使值较大的元素逐渐从前移向后部，就象水底下的气泡一样逐渐向上冒。下面是一个具体的实现例子：</p></blockquote><p><img src="https://files.mdnice.com/user/24067/efc6a996-e935-4efd-90b4-f5dd7b72f397.png"></p><h3 id="写作文"><a href="#写作文" class="headerlink" title="写作文"></a>写作文</h3><p>写一篇小作文只需要一两分钟的时间，但是不足的地方就是字数有限制。<br><img src="https://files.mdnice.com/user/24067/d9796b7d-2fd6-495b-bfd2-4bce3f00f2b5.png"><br><img src="https://files.mdnice.com/user/24067/66a95869-913e-4bd8-adef-2455ff55ae88.png"></p><h3 id="制定简单的学习计划"><a href="#制定简单的学习计划" class="headerlink" title="制定简单的学习计划"></a>制定简单的学习计划</h3><p><img src="https://files.mdnice.com/user/24067/56f3ffe4-8ac2-4cb4-bab7-b887a87d49f3.png"></p><p>此外，当回答一些带有拟人化的问题时，ChatGPT会反复强调：“对不起，我是一个人工智能助手，没有意识和感知”。<br><img src="https://files.mdnice.com/user/24067/6ea14949-0f84-41b9-af73-4eba97376399.png"></p><h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>据了解，ChatGPT的前身为OpenAI此前的语言模型GPT-3，而GPT-3也经历了从1代到3代的演化。ChatGPT之所以会引发人们的诸多震撼，最为重要的原因在于，它所呈现出来的人工智能的进化业已进入到了一个全新的发展阶段。更为确切地说，ChatGPT为我们展现出来的人工智能，已经不再仅仅只是停留在数据统计层面上的人工智能，而是有了自我学习，自我进化，并且可以不断地优化自身的全新的人工智能。这才是AI真正应该有的样子。因此，如果我们要寻找ChatGPT的火爆的背后逻辑的话，人工智能的发展已进入到一个全新的阶段，同样是一个值得我们去关注的重要方面。<br>相信ChatGPT未来会为人类作出巨大的贡献。</p><p><img src="https://files.mdnice.com/user/24067/34613a97-e1d1-47eb-8caa-5d4460a76407.png"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 人工智能 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>HTML标签大全</title>
       <link href="/2022/12/06/index10/"/>
       <url>/2022/12/06/index10/</url>
